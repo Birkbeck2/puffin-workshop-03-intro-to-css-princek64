@@ -1,5 +1,5 @@
 body{
-  background-image: url("/assets/images/cat.png");
+  background-image: url("../images/cat.png");
   background-repeat: no-repeat;
   background-position: 86% 11%;
   background-size: 45% 40%;
