@@ -1,0 +1,131 @@
+body{
+  background-image: url("/assets/images/cat.png");
+  background-repeat: no-repeat;
+  background-position: 86% 11%;
+  background-size: 45% 40%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+h1{
+  font-size: 3em;
+  color:#00008b;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lorem{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+    font-size: 1.2em;
+    color: #444344;
+    text-align: justify;
+}
+
+.hyperlink{
+    color: #1b4ebb;
+    text-decoration: none;
+}
+
+.hyperlink:hover{
+    color: #073780;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#sky{
+    font-style: normal;
+    text-decoration: underline;
+    color: #22b9ad;
+}
+
+#science{
+    font-style: oblique;
+    color: #b9227a;
+}
+
+#meow{
+    font-style: italic;
+    color: #444144;
+}
+
+h2 {
+    font-size: 2em;
+    color: #00008b;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.list-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    gap: 15px;
+    background-color: rgba(173, 216, 230, 0.3);
+    padding: 15px;
+    margin: 1% 2%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+.city-box {
+    background-color: rgba(144, 238, 144, 0.3);
+}
+
+.city-box li{
+    list-style-type: "\1f30f";
+}
+
+.food-box {
+    background-color: rgba(255, 182, 193, 0.3);
+}
+
+.food-box li{
+    list-style-type: "\1F355";
+}
+
+.sport-box {
+    background-color: rgba(135, 206, 250, 0.3);
+}
+
+.sport-box li{
+    list-style-type: arabic-indic;
+}
+
+.box ul,
+.box ol {
+    width: 100%;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
